@@ -1,4 +1,4 @@
-package ru.netology.scr;
+package ru.netology.sqr;
 
 public class SqrService {
     public int calcSqr(int start, int finish) {
