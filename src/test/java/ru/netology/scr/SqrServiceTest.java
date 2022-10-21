@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 public class SqrServiceTest {
     @ParameterizedTest
-    @CsvFileSource(files = "src/test/resources/numbersRange.csv)")
+    @CsvFileSource(files = "src/test/resources/numbersRange.csv")
     public void calcSqr(int expected, int start, int finish) {
 
         SqrService service = new SqrService();
